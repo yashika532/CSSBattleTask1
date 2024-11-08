@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  
+}
+
+.fa-angle-left {
+  position: absolute; 
+  top: 50px; 
+  font-size: 24px; 
+  color: white;
+  cursor: pointer; 
+}
+
+.card-container {
+  height: 650px;
+  width: 350px;
+  background-color: rgb(255, 251, 251);
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 14px 18px rgba(0, 0, 0, 0.779);
+  overflow: hidden;
+}
+
+.upper-container {
+  height: 450px;
+  background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom-left-radius: 80px;
+}
+
+
+.upper-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+#most-played{
+  font-size: 12px;
+}
+
+.upper-left h2 {
+  font-size: 1.5rem;
+}
+
+.upper-left h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.wraith-img {
+  width: 200px;
+  height: 400px;
+}
+
+.stats{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.box{
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 50px;
+  box-shadow: 0 14px 18px rgba(0, 0, 0, 0.104);
+}
+
+.fa-trophy{
+  margin-top: 10px;
+  color: teal;
+  height: 35px;
+  width: 35px;
+  padding: 7px;
+  border: 3px solid teal;
+  border-radius: 100%;
+}
+
+.fa-star{
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  border: 3px solid teal;
+  border-radius: 100%;
+  padding: 4px;
+  color: teal;
+}
+h4{
+  font-size: 12px;
+}
